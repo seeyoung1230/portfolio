@@ -9,6 +9,8 @@ import discord from "./images/discord.png";
 import greensprout from "./images/greensprout.png";
 import mars from "./images/mars.png";
 import maze from "./images/maze.png";
+import vizability from "./images/vizability.png";
+import datajam from "./images/datajam.png";
 
 function App() {
   const about = useRef(null);
@@ -209,6 +211,30 @@ function App() {
                 Stacks/Queues to create a 30x30 maze with one solvable path
               </p>
               <p className="footer">C++ | OpenCV Library</p>
+            </div>
+          </a>
+          <a href="https://docs.google.com/presentation/d/1CLGHnxI5q7CjtEQfIJ8vSDkRd9hT0i4W/edit#slide=id.p1">
+            <div className="card">
+              <div className="card-image">
+                <img className="card-image" src={vizability} alt="Post" />
+              </div>
+              <p className="card-title">1st Place, Husky Hackathon | Viz-Ability</p>
+              <p className="card-body" style={{ padding: "15px" }}>
+                Awarded 1st Place at $5,000 in an education based hackathon. Created a mobile based accessibility tool for improving readability of text
+              </p>
+              <p className="footer">AWS | Figma | Tesseract</p>
+            </div>
+          </a>
+          <a href="https://observablehq.com/d/8157f6efeb257017">
+            <div className="card">
+              <div className="card-image">
+                <img className="card-image" src={datajam} alt="Post" />
+              </div>
+              <p className="card-title">1st Place, Data Jam '23</p>
+              <p className="card-body" style={{ padding: "15px" }}>
+                Awarded 2nd Place in an education based data hackathon. Derived insights on the value of a bachelors degree through data analysis
+              </p>
+              <p className="footer">JavaScript | R | HTML/CSS | Markdown | Observable</p>
             </div>
           </a>
         </div>
