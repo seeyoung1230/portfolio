@@ -30,7 +30,7 @@ function App() {
       <div className="hero">
         <ul>
           <li onClick={() => scrollToSection(main)} id="logo">
-            EVAN CHANG
+            SEAN PARK
           </li>
           <li onClick={() => scrollToSection(about)} className="link" id="a">
             About
@@ -51,8 +51,7 @@ function App() {
       <div ref={main} className="main">
         <div className="main-text-container">
           <p className="main-text">
-            <span className="small-text">Hey there! I am</span> <br></br>Evan
-            Chang
+            <span className="small-text">Hey there! I am</span> <br></br>SEAN PARK
             <span id="comma">
               <strong>,</strong>
             </span>{" "}
@@ -61,10 +60,7 @@ function App() {
               <Typed
                 className="typed-text"
                 strings={[
-                  "Software Engineer @ The Sports Institute at UW Medicine",
-                  "Full Stack Developer @ The MedReport Foundation",
-                  "Software Developer @ UW Finance",
-                  "Student @ University of Washington",
+                  "Student @ University of Washington"
                 ]}
                 typeSpeed={30}
                 backSpeed={25}
@@ -72,22 +68,15 @@ function App() {
               />
             </span>
           </p>
-          <div>
+          {/* <div>
             <a href="https://docs.google.com/document/d/1RV0N79rc0Buw6vj2vHSBODOnmxqiJyvJyIgIdd0DP7Q/edit?usp=sharing">
               <button>Resume</button>
             </a>
-          </div>
+          </div> */}
           <div className="logos text-center">
+           
             <a
-              href="https://github.com/evanc108"
-              className="icon-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} size="3x" className="icon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/evan-chang-3b7a2724a/"
+              href="https://www.linkedin.com/in/sean-park-03b777235/"
               className="icon-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -117,124 +106,44 @@ function App() {
         <div className="profile-container">
           <div className="profile-image">
             <div className="filler-text" style={{ marginBottom: "30px" }}>
-              Hello! My name is Evan Chang and I am currently a student at the
-              University of Washington studying Informatics: Data Science. I
-              have been programming for about 4 years and although my first
-              experience with code was in the classroom, I started to create
-              projects on my own time to hone my skills.
+              Hello! My name is Sean Park and I am currently a student at the
+              University of Washington studying Informatics. I
+              have been programming for about 2 years and my first
+              experience with code was in the classroom where I started to create
+              projects with classmates to hone my skills.
             </div>
           </div>
 
           <div className="profile-image">
             <div className="filler-text">
-              I have worked as a software engineer at The Sports Institute at UW
-              Medicine, a software developer at UW Finance, a Full Stack
-              Developer at The MedReport Foundation, and I have been freelancing
-              my programming skills to small businesses and non-profits.
-              Throughout my experiences, I have quickly been gaining valuable
-              knowledge and skills that I hope to apply to my future
-              contributions to projects and teams.
+            I am actively seeking a challenging position in front-end development where
+             I can seamlessly integrate my expertise in UX design and coding to enhance 
+             and revitalize websites. With a solid foundation in HTML, CSS, React, 
+             JavaScript, and Firebase, I have successfully demonstrated these skills
+              in various projects. My adeptness in these technologies, coupled with 
+              a rapid acquisition of valuable knowledge, positions me to make
+               significant contributions to future projects and collaborative teams. 
+               I am eager to leverage my skills and experience to drive innovation and excellence in web development.
             </div>
           </div>
         </div>
       </div>
 
       <div ref={projects} className="projects">
-        <h1>Projects</h1>
+        <h1>Project</h1>
         <div className="project-list">
-          <a href="https://medreport-b85ab.web.app/">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={medreport} alt="Post" />
-              </div>
-              <p className="card-title">The MedReport Foundation</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                A full-stack website serving a non-profit organization, which
-                facilitates the sharing and viewing of medical articles
-              </p>
-              <p className="footer">JavaScript | React | HTML/CSS | Firebase</p>
-            </div>
-          </a>
-
-          <a href="https://github.com/evanc108/KpopWebCrawler">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={discord} alt="Post" />
-              </div>
-              <p className="card-title">Kpop Album Web Scraping Discord Bot</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                A Discord Bot that displays current trends in Kpop albums,
-                utilizing a web scraper and sentiment analysis to output
-                realtime information
-              </p>
-              <p className="footer">
-                Python | SQL | PostgreSQL | Beautiful Soup | Pandas | MatPlotLib
-              </p>
-            </div>
-          </a>
-
-          <a href="https://github.com/evanc108/Dubhacks2022">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={greensprout} alt="Post" />
-              </div>
-              <p className="card-title">GreenSprouts</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                A mobile app aimed at calculating carbon emissions based on a
-                user's vehicle and average usage
-              </p>
-              <p className="footer">Java | SQLite | SQL | Android Studio</p>
-            </div>
-          </a>
-
-          <a href="https://miffily.shinyapps.io/final-project-haoemilyy/">
+          <a href="https://chronomusical.web.app/homeLinks">
             <div className="card">
               <div className="card-image">
                 <img className="card-image" src={mars} alt="Post" />
               </div>
-              <p className="card-title">Mars Climate Data Analysis Web App</p>
+              <p className="card-title">Chronomusical Web App</p>
               <p className="card-body" style={{ padding: "15px" }}>
-                A data analysis on Mars and Earth climate data. This includes
-                multiple data visualizations displayed on a web application
+              Creating a full-stack website showcasing new trends in the music world, 
+              featuring innovative elements like Music Timelines and Song Battles, is 
+              an exciting and dynamic project.
               </p>
-              <p className="footer">R | R Studio | Shiny App</p>
-            </div>
-          </a>
-          <a href="https://github.com/evanc108/maze">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={maze} alt="Post" />
-              </div>
-              <p className="card-title">Maze Generator</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                A random maze generator that utilizes data structures such as
-                Stacks/Queues to create a 30x30 maze with one solvable path
-              </p>
-              <p className="footer">C++ | OpenCV Library</p>
-            </div>
-          </a>
-          <a href="https://docs.google.com/presentation/d/1CLGHnxI5q7CjtEQfIJ8vSDkRd9hT0i4W/edit#slide=id.p1">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={vizability} alt="Post" />
-              </div>
-              <p className="card-title">1st Place, Husky Hackathon | Viz-Ability</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                Awarded 1st Place at $5,000 in an education based hackathon. Created a mobile based accessibility tool for improving readability of text
-              </p>
-              <p className="footer">AWS | Figma | Tesseract</p>
-            </div>
-          </a>
-          <a href="https://observablehq.com/d/8157f6efeb257017">
-            <div className="card">
-              <div className="card-image">
-                <img className="card-image" src={datajam} alt="Post" />
-              </div>
-              <p className="card-title">1st Place, Data Jam '23</p>
-              <p className="card-body" style={{ padding: "15px" }}>
-                Awarded 2nd Place in an education based data hackathon. Derived insights on the value of a bachelors degree through data analysis
-              </p>
-              <p className="footer">JavaScript | R | HTML/CSS | Markdown | Observable</p>
+              <p className="footer">JavaScript | React | HTML/CSS | Firebase</p>
             </div>
           </a>
         </div>
@@ -248,101 +157,30 @@ function App() {
               <section class="CV-timeline CV-job">
                 <h3 class="CV-timeline-heading">
                   <span class="CV-timeline-heading-title">
-                    Software Engineer{" "}
+                  Product Analyst{" "}
                   </span>
                   &#8211;{" "}
                   <span class="CV-timeline-heading-location">
-                    The Sports Institute at UW Medicine{" "}
+                  Healthy Amplified{" "}
                   </span>
                   <small class="CV-timeline-heading-duration">
-                    Jul 2023 - Present
+                  Apr 2023 – Present
                   </small>
                 </h3>
                 <ul class="CV-timeline-details">
                   <li class="CV-job-timeline-item">
-                    Developed new features for the ExerciseRx platform,
-                    collaborating with engineers to deliver successful
-                    implementation
+                  Collaborated with product managers to ensure product developments algin with market demands 
                   </li>
                   <li class="CV-job-timeline-item">
-                    Utilized Swift, Java, PHP, and JavaScript to enhance the
-                    functionality and user experience of the software platform
+                  Developed business requirements throughout weekly meetings to guide marketing initiatives
                   </li>
                   <li class="CV-job-timeline-item">
-                    Leveraged Amazon Web Services (AWS) and MySQL to optimize
-                    system performance and overall database scalability
-                  </li>
-                  <li class="CV-job-timeline-item">
-                    Engineered RESTful APIs using Node.js and Express.js to
-                    improve data retrieval and storage efficiency of software
-                    programs
+                  Proposed solutions to program managers, contributing to the enhancement of product performance, 
+                  resulting in over $630k in gross revenue bookings throughout 2023
                   </li>
                 </ul>
               </section>
-              <section class="CV-timeline CV-job">
-                <h3 class="CV-timeline-heading">
-                  <span class="CV-timeline-heading-title">
-                    Full Stack Developer{" "}
-                  </span>
-                  &#8211;{" "}
-                  <span class="CV-timeline-heading-location">
-                    The MedReport Foundation{" "}
-                  </span>
-                  <small class="CV-timeline-heading-duration">
-                    July 2015 - Present
-                  </small>
-                </h3>
-                <ul class="CV-timeline-details">
-                  <li class="CV-job-timeline-item">
-                    Led a team of 4 to successfully develop and launch a
-                    full-stack website for exchanging medical articles, serving
-                    200+ users
-                  </li>
-                  <li class="CV-job-timeline-item">
-                    Tested front-end code in multiple browsers to ensure
-                    cross-browser compatability.
-                  </li>
-                  <li class="CV-job-timeline-item">
-                    Coordinated closely with other developers and digital
-                    producers to expedite projects.
-                  </li>
-                  <li class="CV-job-timeline-item">
-                    Clients included Lovesac, U.S. Cellular, JetBlue, and more.
-                  </li>
-                </ul>
-              </section>
-              <section class="CV-timeline CV-job">
-                <h3 class="CV-timeline-heading">
-                  <span class="CV-timeline-heading-title">
-                    Software Developer{" "}
-                  </span>
-                  &#8211;{" "}
-                  <span class="CV-timeline-heading-location">UW Finance</span>
-                  <small class="CV-timeline-heading-duration">
-                    Dec 2022 - Present
-                  </small>
-                </h3>
-                <ul class="CV-timeline-details">
-                  <li class="CV-timeline-details-item">
-                    Developed and deployed an institution-wide notification
-                    management system using C#, .NET, SQL, and Microsoft Azure
-                  </li>
-                  <li class="CV-timeline-details-item">
-                    Automated UI testing with 100+ unit tests using the Specflow
-                    framework on multiple C# ASP.NET web applications
-                  </li>
-                  <li class="CV-timeline-details-item">
-                    Streamlined inventory database management on Microsoft SQL
-                    Server by developing PowerShell scripts to automate manual
-                    data entry, updates, and maintenance, resulting in a 60%
-                    reduction in time spent on these operations
-                  </li>
-                  <li class="CV-timeline-details-item">
-                    Authored and maintained comprehensive software
-                    documentation, encompassing 15+ key systems/processes
-                  </li>
-                </ul>
-              </section>
+
               <section class="CV-timeline CV-job">
                 <h3 class="CV-timeline-heading">
                   <span class="CV-timeline-heading-title">
@@ -370,6 +208,59 @@ function App() {
                   </li>
                 </ul>
               </section>
+
+
+              <section class="CV-timeline CV-job">
+                <h3 class="CV-timeline-heading">
+                  <span class="CV-timeline-heading-title">
+                  Sales Associate{" "}
+                  </span>
+                  &#8211;{" "}
+                  <span class="CV-timeline-heading-location">
+                  Nordstrom{" "}
+                  </span>
+                  <small class="CV-timeline-heading-duration">
+                  Jun 2022 – Sep 2022
+                  </small>
+                </h3>
+                <ul class="CV-timeline-details">
+                  <li class="CV-job-timeline-item">
+                  	Managed high-end clientele in luxury selling industry, showcasing proficient communication to people’s unique needs
+                  </li>
+                  <li class="CV-job-timeline-item">
+                  Acquired comprehensive understanding of product knowledge, customer service, and sale techniques to provide exceptional customer experience
+                  </li>
+                  <li class="CV-job-timeline-item">
+                  Consistently ranked a top-performing sales associate, surpassing monthly sales goals by 25% with an average of $25,000 in sales
+                  </li>
+                
+                </ul>
+              </section>
+              <section class="CV-timeline CV-job">
+                <h3 class="CV-timeline-heading">
+                  <span class="CV-timeline-heading-title">
+                  Marketing Intern{" "}
+                  </span>
+                  &#8211;{" "}
+                  <span class="CV-timeline-heading-location">UV NATION</span>
+                  <small class="CV-timeline-heading-duration">
+                  Jun 2021 – Mar 2022
+                  </small>
+                </h3>
+                <ul class="CV-timeline-details">
+                  <li class="CV-timeline-details-item">
+                  Delivered and improved customer experience with extensive knowledge of UV nation’s product capabilities 
+                  </li>
+                  <li class="CV-timeline-details-item">
+                  Gained significant experience and knowledge of consumer centric marketing of UV Nation’s products 
+                  </li>
+                  <li class="CV-timeline-details-item">
+                  Extensive experience in supply chain administration with partners based out of China
+                  </li>
+              
+                </ul>
+              </section>
+             
             </div>
           </div>
         </div>
